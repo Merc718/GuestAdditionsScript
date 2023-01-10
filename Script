@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+cd /mnt/cdrom
+sudo sh ./VBoxLinuxAdditions.run --nox11
